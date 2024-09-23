@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-color: lightblue; 
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.start {
+    width: 100%;
+}
+
+.box {
+    box-shadow: 5px 5px 10px darkgray, -5px -5px 10px darkgray;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 7px;
+    font-size: 16px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    position: relative;
+}
+
+ul li .data {
+    flex-grow: 1;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+ul li button {
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 35px;
+    color: white;
+    cursor: pointer;
+    margin:2px
+}
+
+ul li .bt1 {
+    background-color: red;
+}
+
+ul li .bt2 {
+    background-color: green;
+}
+
+ul li .bt3 {
+    background-color: orangered;
+}
+
+.checked {
+    background-color: green;
+}
+
+@media (max-width: 768px) {
+    .box {
+        padding: 15px;
+    }
+
+    ul li {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    ul li .data {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .box {
+        padding: 10px;
+    }
+
+    ul li {
+        font-size: 12px;
+        padding: 6px;
+    }
+
+    ul li .data {
+        font-size: 12px;
+    }
+}

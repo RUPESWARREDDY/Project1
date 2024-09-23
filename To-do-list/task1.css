@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-shadow: border-box;
+}
+.main{
+    /* background: linear-gradient(to left,purple,blue,purple); */
+    background-color: lightblue;
+}
+.start{
+    height: 100vh; 
+}
+.box{
+    box-shadow: 5px 5px 10px darkgray,-5px -5px 10px darkgray;
+    margin-top: 100px;
+}
+ul li{
+    position: relative;
+    left:0px;
+         padding-left: 10px;
+         color: blue;
+            list-style-type:none;
+              border-radius:7px;
+              font-size:20px;
+             margin-top:5px;
+}
+.data{
+    width:280px;
+    border:none;
+    border-radius: 5px;
+    height: 35px;
+    padding-left: 10px;
+}
+
+ul 
+{
+    position: relative;
+    border:1px soloid black;
+    height: 20px;
+    width:200px;
+} .bt1{
+    position: absolute;
+    /* top:1px; */
+    left:300px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    height: 35px;
+    width:35px;
+    text-align: center;
+    color: white;
+    padding-top:5px;
+    background-color: red;
+    cursor: pointer;
+    
+
+}
+.b1,span:hover{
+    background-color: orange;
+  
+}
+.bt2{
+    position: absolute;
+    left:340px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    height: 35px;
+    width:35px;
+    text-align: center;
+    color: white;
+    /* padding-top:5px; */
+    background-color:green;
+    cursor: pointer;
+}
+.bt3{
+    position: absolute;
+    left:380px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    height: 35px;
+    width:35px;
+    text-align: center;
+    color: white;
+    /* padding-top:5px; */
+    background-color: orangered;
+    cursor: pointer;
+}
+.checked{
+    background-color: green;
+}
+@media screen and (min-width:575) and (max-width:769){
+    .main{
+        width:140%;
+    }
+}
+    

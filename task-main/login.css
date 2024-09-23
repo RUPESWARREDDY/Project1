@@ -1,0 +1,19 @@
+
+.part1{
+    background-image: url(./images/bg.jpg);
+    background-size: cover;
+}
+.matter{
+    font-size: 74px;
+    color: white;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.b1{margin-left:20px;
+}
+img{
+    height: 28px;
+    width:28px;
+    border-radius: 50%;
+}
+

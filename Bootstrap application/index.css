@@ -1,0 +1,102 @@
+.head{
+    background-color: blue;
+}
+.icon{
+    color: white;
+    font-family: Montserrat;
+    font-size: 34px;
+}
+.c1{
+    color: cornflowerblue;
+}
+ .a1{
+    color:white;
+    text-decoration: none;
+    font-size: 28px;
+}
+.b1{
+    border: 1px solid cornflowerblue;
+    height: 35px;
+    width:130px;
+    border-radius: 20px;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif; 
+}
+.txt1{
+    font-family:Montserrat;
+    color: white;
+    font-size: 78px;
+   }
+   .txt2{
+       color: white;
+       font-size: 20px;
+       font-family:Montserrat;
+       font-weight: 100px;
+   }
+   .b2{
+    height: 35px;
+    width:100px;
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    color: darkblue;
+}
+.b3{
+    height: 35px;
+    width:100px;
+    background-color: blue;
+    border-radius: 20px;
+    border: 1px solid white;
+    color: white;
+}
+.bh1{
+    padding-top: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+}
+.bp1{
+    text-align:center;
+    padding-top: 10px;
+    font-size: 16px;
+    line-height: 1.7;
+}
+.img2{
+    margin-top: 25px;
+    box-shadow: 5px 5px 12px darkgray,-5px -5px 12px darkgray;
+}
+.last{
+    background-color: rgb(246, 212, 218);
+}
+.f1{
+    height: 250px;
+    width:20%;
+    margin: 10px;
+    padding:20px;
+}
+.icon2{
+    color: blue;
+    font-family: montserrat;
+    padding-top: 60px;
+    font-size: 22px;
+}
+.fp{
+    font-size: 18px;
+    line-height: 1.5;
+}
+.fh6{
+    padding-top:60px ;
+    font-family: montserrat;
+    font-size: 14px;
+    padding-left: 40px;
+}
+ul > li{
+    padding-top: 18px;
+    list-style-type: none; 
+    list-style-position: outside;
+}
+.cpy{
+    font-size: 14px;
+    padding-top: 120px;
+}
